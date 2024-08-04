@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="../dist/output.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="flex items-center justify-center h-screen bg-gradient-to-r from-violet-200 to-fuchsia-200">
+    <div class="grid grid-cols-4 gap-4 bg-green-50 p-4 max-w-screen-sm  rounded w-96 ">
+      <div class="grid col-span-4 bg-gray-50 h-72 rounded mb-4 p-4 relative z-10 bg-green-50 items-end">
+        <input type="text" id="previous-number" class=" w-full text-neutral-500 bg-green-50 text-2xl text-end">
+        <input type="text" id="result" class="w-full text-neutral-700 font-bold h-10 text-4xl bg-green-50 text-end">
+      </div>
+      <button class="btn-input text-2xl bg-stone-300 text-neutral-700 text-center rounded hover:bg-stone-200 cursor-pointer delete">CE</button>
+      <button class="btn-input text-2xl bg-stone-300  text-neutral-700 text-center rounded hover:bg-stone-200 cursor-pointer clearAll">C</button>
+      <button class="bg-stone-300 text-2xl text-center text-neutral-700 rounded hover:bg-stone-200 cursor-pointer btn-operation">/</button>
+      <button class="bg-stone-300 text-2xl text-center text-neutral-700 rounded hover:bg-stone-200 cursor-pointer btn-operation">*</button>
+      <button class="btn-input text-2xl bg-stone-300 text-neutral-700 text-center rounded hover:bg-stone-200 cursor-pointer">7</button>
+      <button class="btn-input text-2xl  bg-stone-300 text-neutral-700 text-center rounded hover:bg-stone-200 cursor-pointer">8</button>
+      <button class="btn-input text-2xl bg-stone-300 text-neutral-700 text-center rounded hover:bg-stone-200 cursor-pointer">9</button>
+      <button class="bg-stone-300  text-2xltext-center text-neutral-700 rounded hover:bg-stone-200 cursor-pointer btn-operation subs">-</button>
+      <button class="btn-input text-2xl bg-stone-300 text-neutral-700 text-center rounded hover:bg-stone-200 cursor-pointer">4</button>
+      <button class="btn-input text-2xl bg-stone-300 text-neutral-700 text-center rounded hover:bg-stone-200 cursor-pointer">5</button>
+      <button class="btn-input text-2xl bg-stone-300 text-neutral-700 text-center rounded hover:bg-stone-200 cursor-pointer">6</button>
+      <button class="bg-stone-300 text-2xl text-center text-neutral-700 rounded hover:bg-stone-200 cursor-pointer btn-operation">+</button>
+      <button class="bg-stone-300 text-2xl text-center text-neutral-700 rounded hover:bg-stone-200 cursor-pointer btn-input">1</button>
+      <button class="bg-stone-300 text-2xl text-center text-neutral-700 rounded hover:bg-stone-200 cursor-pointer btn-input">2</button>
+      <button class="bg-stone-300 text-2xl text-center  text-neutral-700 rounded hover:bg-stone-200 cursor-pointer btn-input">3</button>
+      <button class="bg-red-400 text-2xl text-center text-neutral-700 rounded mb-3 hover:bg-stone-200 cursor-pointer row-span-2 equal">=</button>
+      <button class="bg-stone-300 text-2xl  text-center text-neutral-700 rounded col-span-2 mb-3 hover:bg-stone-200 cursor-pointer btn-input">0</button>
+      <button class="bg-stone-300 text-2xl  text-center text-neutral-700 rounded mb-3 hover:bg-stone-200 cursor-pointer btn-input">.</button>
+      
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
