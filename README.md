@@ -33,6 +33,9 @@ Enter: Compute the result.
 Escape: Clear all inputs.
 Backspace: Delete the last character or digit.
 
+## Visit the page
+https://vallefarinha.github.io/project3-calculator/
+
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
